@@ -12,7 +12,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Merriweather", serif;
-  background-color: #FFFEF0;
+  background-color: #fffef0;
 }
 
 a {
@@ -20,19 +20,27 @@ a {
   text-decoration: none;
 }
 
-
 @layer components {
   .main {
     @apply m-4 mx-10   bg-yellowLight;
   }
   .navBarContainer {
-    @apply flex gap-2  text-xs ;
+    @apply flex gap-2  text-xs;
   }
   .navbarItem {
-    @apply hover:text-green
+    @apply hover:text-green;
   }
 
-  .active{
-    @apply bg-greenBtn rounded-full px-2 hover:text-black
+  .active {
+    @apply bg-greenBtn rounded-full px-2 hover:text-black;
+  }
+  .titleAttibute {
+    @apply text-green text-sm font-bold pb-2;
+  }
+  .topic {
+    @apply text-xs font-semibold;
+  }
+  .description {
+    @apply text-[11px];
   }
 }
