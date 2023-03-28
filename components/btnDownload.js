@@ -4,7 +4,7 @@ import {saveAs} from "file-saver"
 
 const btnDownload = () => {
   const saveFile =()=>{
-    saveAs("ResumePDF.pdf","resume_pavinee_suthamjeam")
+    saveAs("files/ResumePDF.pdf","resume_pavinee_suthamjeam")
     
   }
   return (

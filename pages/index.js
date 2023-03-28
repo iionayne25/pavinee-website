@@ -12,12 +12,8 @@ export default function Home() {
         <title>Pavinee | Home</title>
         <link rel="icon" href="/icon.svg" />
       </Head>
-      {/* <div className="relative top-0 w-fit">
-      <Image src="/circle1.svg" width="380" height="200" />
-      </div> */}
       <Header/>
-      
-      <main className="main flex-col bg-url('/circle1.svg') bg-repeat">
+      <main className="main h-fit flex-col bg-url('/circle1.svg') bg-repeat">
       <div className="relative top-24 left-80 w-fit">
       <Image src="/circle2.svg" width="380" height="200" className="relative 
       " />
@@ -48,9 +44,8 @@ export default function Home() {
           </Link>
           </div>
         </div>
-      </main>
-      <section className="">
-        <div className="flex justify-center items-center gap-20">
+       
+        <div className="flex justify-center items-center gap-20 pt-8 pb-0">
           <Link href="/about">
           <div className="flex flex-col justify-center items-center text-xs  gap-2 hover:translat-y-1 hover:scale-110 hover:text-green">
             <Image
@@ -79,11 +74,11 @@ export default function Home() {
           </div>
           </Link>
         </div>
-      </section>
-      <div className="relative -top-80 -left-16 w-fit">
+      <div className="relative bottom-80 -left-[130px] w-fit">
       <Image src="/deco1.png" width="200" height="200" className="opacity-70
       " />
       </div>
+      </main>
     </>
   );
 }
