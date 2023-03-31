@@ -74,17 +74,19 @@ const index = () => {
               <p className="topic">Software Engineer,Internship</p>
               <p className="description">Lumentum International(Thailand) Ltd., Co, June - October 2022</p>
               <div className="flex pt-2 gap-3">
-                <a href="" target="_blank" className="text-[14px] underline ">Certificate</a>
+                <a href="files/certificate_lumentum_internship.pdf" target="_blank" className="text-[14px] underline ">Certificate</a>
                 <a href="" target="_blank" className="text-[14px] underline">Cooperative Report</a>
               </div>
             </div>
             <div className="titileItem">
               <p className="titleAttibute">Education</p>
-              <p className="topic">Enrichment Program of Science Mahematics Technology and Environment (SMTE)</p>
+              <p className="topic">Enrichment Program of Science Mathematics Technology and Environment (SMTE)</p>
               <p className="description">Suanboonyopatham Lamphun School, 2013-2019</p>
-              <p className="topic pt-1">Bechelor of Comuter Engineering, </p>
+              <p className="description">GPA 3.84</p>
+              <p className="topic pt-1">Bechelor of Computer Engineering, </p>
               <p className="description">Major Information Systems and Network</p>
               <p className="description">Chiang Mai University, 2019-2023</p>
+              <p className="description">GPA 3.84</p>
             </div>
             <div className="titileItem">
               <p className="titleAttibute">Award</p>

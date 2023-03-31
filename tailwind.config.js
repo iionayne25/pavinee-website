@@ -47,5 +47,7 @@ module.exports = {
       'circle1':"url('/public/circle1.svg')",
     }
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide'), require('tailwind-scrollbar'),
+  ],
 };
