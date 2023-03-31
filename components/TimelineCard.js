@@ -51,9 +51,9 @@ const TimelineCard = () => {
           </div>
           <div className="absolute text-[15px] right-2 bottom-[95px]">
             <p>
-              <span className="text-gray-500">while</span>(!goalAchieve())
+              <span className="text-[#F70080]">while</span>(!goalAchieve())
             </p>
-            <p className="pl-7">{"try()"}</p>
+            <p className="">{"keepTry()"}</p>
           </div>
         </div>
       </div>

@@ -5,7 +5,8 @@ import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
-const Header = () => {
+
+const Footer = () => {
   const router = useRouter();
   const Mailto = ({ email, subject = "", body = "", children }) => {
     let params = subject || body ? "?" : "";
@@ -15,35 +16,31 @@ const Header = () => {
     return <a href={`mailto:${email}${params}`}>{children}</a>;
   };
   return (
-    <>
-      <div className="flex my-2 mx-4 justify-between items-center">
-        <Link href="/">
-          <div className="font-bold text-xl">PSut.</div>
-        </Link>
-
-        <div className="navBarContainer">
-          <Link href="/">
-            <div className={router.pathname == "/" ? "active" : ""}>
-              <div className="navbarItem">Home</div>
-            </div>
-          </Link>
-          <Link href="/about">
-            <div className={router.pathname == "/about" ? "active" : ""}>
-              <div className="navbarItem">About</div>
-            </div>
-          </Link>
-          <Link href="/resume">
-            <div className={router.pathname == "/resume" ? "active" : ""}>
-              <div className="navbarItem">Resume</div>
-            </div>
-          </Link>
-          <Link href="/projects">
-            <div className={router.pathname == "/projects" ? "active" : ""}>
-              <div className="navbarItem">Projects</div>
-            </div>
-          </Link>
+    <div className="bg-[#E7FAC4] w-screen ">
+      <div className="flex flex-col justify-center items-center gap-4 py-4">
+        <div className="flex flex-row gap-5">
+          <div>
+            <Link href="/">
+              <div className="hover:text-green text-sm">Home</div>
+            </Link>
+          </div>
+          <div>
+            <Link href="/about">
+              <div className="hover:text-green text-sm">About</div>
+            </Link>
+          </div>
+          <div>
+            <Link href="/resume">
+              <div className="hover:text-green text-sm">Resume</div>
+            </Link>
+          </div>
+          <div>
+            <Link href="/projects">
+              <div className="hover:text-green text-sm">Projects</div>
+            </Link>
+          </div>
         </div>
-        <div className="space-x-2">
+        <div className="flex gap-5">
           <a
             href="https://www.facebook.com/Siggie.Brownie"
             target="_blank"
@@ -71,12 +68,15 @@ const Header = () => {
             subject="Hello, Pavinee!"
             body=""
           >
-            <MailOutlineIcon className="hover:text-gray-400"/>
+            <MailOutlineIcon className="hover:text-gray-400" />
           </Mailto>
         </div>
+        <div>
+            <p className="text-xs">	&#169; Pavinee Website, All rights reserved.</p>
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 
-export default Header;
+export default Footer;

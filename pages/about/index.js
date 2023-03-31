@@ -3,6 +3,7 @@ import Head from "next/head";
 import Header from "@/components/Header";
 import Image from "next/image";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import Footer from "@/components/footer";
 const index = () => {
   return (
     <>
@@ -96,6 +97,7 @@ const index = () => {
           </div>
         </div>
       </main>
+      <Footer/>
     </>
   );
 };
