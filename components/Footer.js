@@ -17,7 +17,7 @@ const Footer = () => {
   };
   return (
     <div className="bg-[#E7FAC4] w-screen ">
-      <div className="flex flex-col justify-center items-center gap-4 py-4">
+      <div className="flex flex-col justify-center items-center gap-3 py-4">
         <div className="flex flex-row gap-5">
           <div>
             <Link href="/">
@@ -68,11 +68,11 @@ const Footer = () => {
             subject="Hello, Pavinee!"
             body=""
           >
-            <MailOutlineIcon className="hover:text-gray-400" />
+            <MailOutlineIcon className="hover:text-gray-400 w-6.5 h-7" />
           </Mailto>
         </div>
         <div>
-            <p className="text-xs">	&#169; Pavinee Website, All rights reserved.</p>
+            <p className="text-[12px]">	&#169; Pavinee Website, All rights reserved.</p>
         </div>
       </div>
     </div>

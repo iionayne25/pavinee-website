@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Image from "next/image";
 import BtnDownload from "@/components/btnDownload";
 import BtnView from "@/components/BtnView";
-import Footer from "@/components/footer";
+import Footer from "@/components/Footer";
 
 const index = () => {
   return (

@@ -4,15 +4,15 @@ const ProjectCard = ({ src, title, name, courseName }) => {
   return (
     <div className="relative">
       <div
-        className="bg-greenBtn/50 rounded-3xl w-48 h-[350px] flex flex-col justify-start  items-center shadow-2xl 
+        className="bg-greenBtn/80 rounded-3xl w-48 h-[350px] flex flex-col justify-start  items-center shadow-2xl 
       hover:scale-110 hover:shadow-2xl cursor-pointer  "
       >
-        <div className="bg-white h-[218px] my-3 rounded-3xl ">
+        <div className="bg-white w-[209px] h-[216px] my-3 rounded-3xl ">
           <Image
             src={src}
             width={210}
             height={210}
-            className="rounded-3xl  shadow-xl"
+            className="rounded-3xl  shadow-lg shadow-black/20"
           />
         </div>
         <div className="font-extrabold text-xs text-left items-start self-start mx-3 ">

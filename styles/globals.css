@@ -22,7 +22,7 @@ a {
 
 @layer components {
   .main {
-    @apply m-4 mx-10   bg-yellowLight;
+    @apply m-4 mx-10 pb-5  bg-yellowLight;
   }
   .navBarContainer {
     @apply flex gap-2  text-xs;
@@ -42,5 +42,9 @@ a {
   }
   .description {
     @apply text-[11px];
+  }
+  .btnLink{
+  @apply bg-greenBtn px-3 py-1 text-xs shadow-xl border-b border-gray-600/70 hover:scale-110 hover:-translate-y-1 rounded-full
+  hover:bg-black hover:text-greenLight font-medium
   }
 }
