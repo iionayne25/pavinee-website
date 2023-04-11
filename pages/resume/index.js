@@ -1,12 +1,20 @@
-import React from "react";
+import React,{useState} from "react";
 import Head from "next/head";
 import Header from "@/components/Header";
 import Image from "next/image";
 import BtnDownload from "@/components/btnDownload";
-import BtnView from "@/components/BtnView";
 import Footer from "@/components/Footer";
+import { Document, Page, pdfjs } from "react-pdf";
+import iframe from "iframe";
 
 const index = () => {
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
+
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
+
   return (
     <>
       <Head>
@@ -15,7 +23,7 @@ const index = () => {
       </Head>
       <Header/>
      
-        <div className="pt-4 my-4 h-screen relative">
+        <div className=" pt-4 my-4 h-screen w-screen relative">
           <Image
             src="/deco4.png"
             width={450}
@@ -28,28 +36,18 @@ const index = () => {
             height={400}
             className="relative -top-[500px] rounded-full -left-14 "
           />
-          <Image
-            src="/circle4.svg"
-            width={500}
-            height={500}
-            className="relative left-[690px] rounded-full -top-[700px] "
-          />
-          <div className="absolute top-0 left-80 ">
-          <div className="flex justify-center items-start  gap-10 ">
-            <div className="border-green items-center top-5 h-screen overflow-scroll scrollbar-hide  border-8 rounded-xl bg-white ">
-              <Image
-                src="/resume.jpg"
-                alt="Resume of Pavinee Suthamjeam"
-                width={430}
-                height={100}
-                className="rounded-xl"
-              />
+          <div className="absolute top-0 left-[420px]">
+          <div className="flex flex-col justify-center items-center  gap-5 ">
+         
+            <div className="items-center top-2 border-8 border-green rounded-2xl ">
+              <iframe src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFfzyCTXwk&#x2F;Iy6pVmFEaGZTVB8HAmOYzA&#x2F;view?embed" allowFullScreen="allowFullScreen" allow="fullScreen" 
+              className='w-[450px] h-[480px] rounded-xl'></iframe>
             </div>
-            <div className="flex flex-col gap-2">
+            <div className="flex gap-2">
               <BtnDownload />
-              <a href="files/ResumePDF.pdf" target="_blank">
+              <a href="/files/ResumePDF.pdf" target="_blank">
                 {" "}
-                <BtnView />
+               
               </a>
             </div>
           </div>

@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-const ProjectCard = ({ src, title, name, courseName }) => {
+const ProjectCard = ({ src, title, name, courseName, gitHubLink }) => {
   return (
     <div className="relative">
       <div
-        className="bg-greenBtn/80 rounded-3xl w-48 h-[350px] flex flex-col justify-start  items-center shadow-2xl 
+        className="bg-greenBtn/80 rounded-3xl w-48 h-[390px] flex flex-col justify-start  items-center shadow-2xl 
       hover:scale-110 hover:shadow-2xl cursor-pointer  "
       >
         <div className="bg-white w-[209px] h-[216px] my-3 rounded-3xl ">
@@ -22,6 +22,21 @@ const ProjectCard = ({ src, title, name, courseName }) => {
         <div className="self-start text-[12px] pt-2 text-black/60 mx-3">
           {courseName}
         </div>
+        {gitHubLink ? (
+          <div className="pt-2">
+            <a href={gitHubLink} target="_blank">
+              <button
+                className="bg-black text-greenLight px-3 py-1 text-[14px] shadow-xl border-b border-gray-600/70   rounded-full
+    hover:bg-gray-300 hover:text-black font-medium"
+                target="_blank"
+              >
+                GitHub
+              </button>
+            </a>
+          </div>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ import { SessionProvider } from "next-auth/react";
 import ProgressBar from "@badrap/bar-of-progress";
 import { RecoilRoot } from "recoil";
 import { ThemeProvider } from "@mui/material/styles";
-import theme from "@/theme/theme";
+import theme from "@/theme";
 import Head from "next/head";
 
 const progress = new ProgressBar({

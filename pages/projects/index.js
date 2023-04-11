@@ -25,7 +25,7 @@ const index = () =>{
             courseName=""
           />
           </Link>
-          <Link href="/itsmFlashcard">
+          <Link href="/projects/itsmFlashCard">
           <ProjectCard
             src="/itsmFlashcard.png"
             title="In Course Project"
@@ -33,7 +33,7 @@ const index = () =>{
             courseName="IT Service Management Course"
           />
           </Link>
-          <Link href="/whisper">
+          <Link href="/projects/whisper">
           <ProjectCard
             src="/whisperLogo.png"
             title="Milestone Project"
@@ -41,22 +41,25 @@ const index = () =>{
             courseName="Adv. ISNE Technology Course"
           />
           </Link>
-          <Link href="/bearBrick">
+         
           <ProjectCard
+          className="hover:scale-100"
             src="/bearBrickLogo.png"
             title="In Course Project"
             name="BearBrick"
             courseName="Fundamental Database Course"
+            gitHubLink="https://github.com/iionayne25/BearBrick"
           />
-          </Link>
-          <Link href="/2dGame">
+         
+         
           <ProjectCard
             src="/2dGame.png"
             title="In Course Project"
             name="2D Breakout"
             courseName="Object Oriented Programming Course"
+            gitHubLink="https://github.com/iionayne25/2dBreakout"
           />
-          </Link>
+          
           
           
          
