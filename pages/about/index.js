@@ -3,7 +3,7 @@ import Head from "next/head";
 import Header from "@/components/Header";
 import Image from "next/image";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import Footer from "@/components/footer";
+import Footer from "@/components/Footer";
 const index = () => {
   return (
     <>
@@ -74,9 +74,9 @@ const index = () => {
               <p className="titleAttibute">Experience</p>
               <p className="topic">Software Engineer,Internship</p>
               <p className="description">Lumentum International(Thailand) Ltd., Co, June - October 2022</p>
-              <div className="flex pt-2 gap-3">
-                <a href="files/certificate_lumentum_internship.pdf" target="_blank" className="text-[14px] underline ">Certificate</a>
-                <a href="" target="_blank" className="text-[14px] underline">Cooperative Report</a>
+              <div className="flex pt-1">
+                <a href="/files/certificate_lumentum_internship.pdf" target="_blank" className="text-[14px] underline ">Certificate</a>
+                
               </div>
             </div>
             <div className="titileItem">
