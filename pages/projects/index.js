@@ -16,7 +16,7 @@ const index = () =>{
       <Header />
 
       <div className="main pb-10 ">
-        <div className=" grid grid-cols-4 px-10 gap-10 place-items-center ">
+        <div className=" grid px-10 pt-10 gap-10 place-items-center md:pt-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
           <Link href="/projects/physicalApp">
           <ProjectCard
             src="/oliveLogo.png"

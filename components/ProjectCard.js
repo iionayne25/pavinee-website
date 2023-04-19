@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const ProjectCard = ({ src, title, name, courseName, gitHubLink }) => {
   return (
-    <div className="relative">
+    <div className="">
       <div
         className="bg-greenBtn/80 rounded-3xl w-48 h-[390px] flex flex-col justify-start  items-center shadow-2xl 
       hover:scale-110 hover:shadow-2xl cursor-pointer  "
@@ -23,7 +23,7 @@ const ProjectCard = ({ src, title, name, courseName, gitHubLink }) => {
           {courseName}
         </div>
         {gitHubLink ? (
-          <div className="pt-2">
+          <div className="pt-2 self-start mx-3">
             <a href={gitHubLink} target="_blank">
               <button
                 className="bg-black text-greenLight px-3 py-1 text-[14px] shadow-xl border-b border-gray-600/70   rounded-full

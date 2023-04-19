@@ -22,10 +22,10 @@ a {
 
 @layer components {
   .main {
-    @apply m-4 mx-10 pb-5  bg-yellowLight;
+    @apply w-screen pt-14 xl:pt-14 px-5  md:pt-20 xl:mx-0  bg-yellowLight;
   }
   .navBarContainer {
-    @apply flex gap-2  text-xs;
+    @apply flex gap-2  text-base lg:text-xl;
   }
   .navbarItem {
     @apply hover:text-green;
@@ -34,8 +34,11 @@ a {
   .active {
     @apply bg-greenBtn rounded-full px-2 hover:text-black;
   }
+  .titleItem{
+    @apply space-y-1
+  }
   .titleAttibute {
-    @apply text-green text-sm font-bold pb-2;
+    @apply text-green text-sm font-bold pb-1;
   }
   .topic {
     @apply text-xs font-semibold;
@@ -47,4 +50,5 @@ a {
   @apply bg-greenBtn px-3 py-1 text-xs shadow-xl border-b border-gray-600/70 hover:scale-110 hover:-translate-y-1 rounded-full
   hover:bg-black hover:text-greenLight font-medium
   }
+  
 }

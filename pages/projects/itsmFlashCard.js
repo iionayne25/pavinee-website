@@ -1,8 +1,8 @@
-import React from 'react'
-import Head from 'next/head'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
-import Link from 'next/link'
+import React from "react";
+import Head from "next/head";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import Link from "next/link";
 const index = () => {
   return (
     <>
@@ -11,33 +11,55 @@ const index = () => {
         <link rel="icon" href="/icon.svg" />
       </Head>
       <Header />
-      <div className='main flex flex-col gap-5 relative pb-10 pt-3'>
-        <div className='flex flex-row justify-between items-center'>
-          <p className='text-2xl font-semibold flex-wrap text-green'>IT Service Management Flashcard</p>
-          <div className='flex flex-row items-center gap-3'>
-          <Link href="/projects">
+      <div className="main flex flex-col gap-5 md:pb-64  pt-24 overflow-scroll">
+        <div className="flex flex-col xl:flex-row gap-5 justify-between items-center">
+          <p className="text-2xl font-semibold flex-wrap text-green">
+            IT Service Management Flashcard
+          </p>
+          <div className="flex flex-col gap-5 md:flex-row items-center pt-5">
+            <Link href="/projects">
               <button
-                className="bg-gray-400 px-4 py-1 text-xs border-b-2 border-gray-600/60 hover:scale-110 rounded-full
+                className="bg-gray-400 w-[330px] md:w-fit md:px-4 py-2 text-xl border-b-2 border-gray-600/60 hover:scale-110 rounded-full
               hover:bg-black hover:text-greenLight font-medium hover:-translate-y-1"
               >
                 Back
               </button>
             </Link>
             <a href="https://justremember.vercel.app/" target="_blank">
-              <button className="btnLink ">Play Game</button>
+              <button className="btnLink text-xl    w-[330px] md:w-fit md:px-4  py-2 ">
+                Play Game
+              </button>
             </a>
-            <a href="/files/poster_physical_therapy_clinic_service_platform.pdf" target="_blank">
-              <button className="btnLink ">GitHub</button>
+            <a
+              href="/files/poster_physical_therapy_clinic_service_platform.pdf"
+              target="_blank"
+            >
+              <button className="btnLink text-xl   w-[330px] md:w-fit md:px-4 py-2">
+                GitHub
+              </button>
+            </a>
+            <a
+              href="https://www.canva.com/design/DAFc8D_ZvLA/h0odzpEjCXsfhWPNryEnOA/edit?utm_content=DAFc8D_ZvLA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+              target="_blank"
+            >
+              <button className="btnLink text-xl   w-[330px] md:px-4 py-2 md:hidden ">
+                Presentation
+              </button>
             </a>
           </div>
         </div>
-        <div className='flex justify-center items-center'>
-        <iframe src='https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFc8D_ZvLA&#x2F;h0odzpEjCXsfhWPNryEnOA&#x2F;view?embed' allowFullScreen="allowFullScreen" allow="fullScreen" className='w-[1100px] h-[500px] rounded-xl'></iframe>
+        <div className="hidden md:flex md:justify-center md:items-center md:pt-4">
+          <iframe
+            src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFc8D_ZvLA&#x2F;h0odzpEjCXsfhWPNryEnOA&#x2F;view?embed"
+            allowFullScreen="allowFullScreen"
+            allow="fullScreen"
+            className="w-[1100px] h-[500px] xl:h-[600px] rounded-xl"
+          ></iframe>
         </div>
       </div>
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default index
+export default index;

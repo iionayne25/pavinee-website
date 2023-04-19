@@ -12,10 +12,10 @@ const index = () => {
         <link rel="icon" href="/icon.svg" />
       </Head>
       <Header />
-      <main className="main px-10">
-        <div className="flex gap-10 pt-10">
+      <main className="main px-10 pb-20">
+        <div className="flex  flex-col xl:flex-row gap-10 pt-10">
           <div className="flex flex-col gap-10">
-            <div className="relative  w-[230px] h-[303px] border border-black rounded-t-full rounded-b-3xl ">
+            <div className="relative w-[230px] h-[303px] left-[60px] md:left-[240px] lg:left-[360px] xl:w-[230px] xl:h-[303px] xl:left-0 border border-black rounded-t-full rounded-b-3xl ">
               <Image
                 src="/profilePic.png"
                 width="230"
@@ -73,13 +73,13 @@ const index = () => {
             <div className="titileItem">
               <p className="titleAttibute">Experience</p>
               <p className="topic">Software Engineer,Internship</p>
-              <p className="description">Lumentum International(Thailand) Ltd., Co, June - October 2022</p>
+              <p className="description ">Lumentum International(Thailand) Ltd., Co, June - October 2022</p>
               <div className="flex pt-1">
                 <a href="/files/certificate_lumentum_internship.pdf" target="_blank" className="text-[14px] underline ">Certificate</a>
                 
               </div>
             </div>
-            <div className="titileItem">
+            <div className="titleItem">
               <p className="titleAttibute">Education</p>
               <p className="topic">Enrichment Program of Science Mathematics Technology and Environment (SMTE)</p>
               <p className="description">Suanboonyopatham Lamphun School, 2013-2019</p>
@@ -87,9 +87,9 @@ const index = () => {
               <p className="topic pt-1">Bechelor of Computer Engineering, </p>
               <p className="description">Major Information Systems and Network</p>
               <p className="description">Chiang Mai University, 2019-2023</p>
-              <p className="description">GPA 3.84</p>
+              <p className="description">GPA 3.06</p>
             </div>
-            <div className="titileItem">
+            <div className="titleItem">
               <p className="titleAttibute">Award</p>
               <p className="topic">DPlus+ Intertrade Scholarship Senior Project</p>
               <p className="description">Mar 2023</p>
