@@ -16,7 +16,8 @@ const Footer = () => {
     return <a href={`mailto:${email}${params}`}>{children}</a>;
   };
   return (
-    <div className="bg-[#E7FAC4] w-screen ">
+    <>
+    <div className="bg-[#E7FAC4] w-full fixed bottom-0">
       <div className="flex flex-col justify-center items-center gap-3 py-4">
         <div className="flex flex-row gap-5">
           <div>
@@ -76,6 +77,8 @@ const Footer = () => {
         </div>
       </div>
     </div>
+    </>
+    
   );
 };
 
