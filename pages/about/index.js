@@ -15,21 +15,21 @@ const index = () => {
       <main className="main px-10 pb-20">
         <div className="flex  flex-col xl:flex-row gap-10 pt-10">
           <div className="flex flex-col gap-10">
-            <div className="relative w-[230px] h-[303px] left-[60px] md:left-[240px] lg:left-[360px] xl:w-[230px] xl:h-[303px] xl:left-0 border border-black rounded-t-full rounded-b-3xl ">
+            <div className=" w-[230px] h-[303px] left-[60px] md:left-[240px] lg:left-[360px] xl:w-[230px] xl:h-[303px] xl:left-0 border border-black rounded-t-full rounded-b-3xl ">
               <Image
                 src="/profilePic.png"
                 width="230"
                 height="200"
-                className="relative rounded-t-full rounded-b-3xl"
+                className=" rounded-t-full rounded-b-3xl"
               />
-              <div className="relative -top-60 -left-3 w-[240px] h-[308px] border border-black rounded-t-full rounded-b-3xl">
+              <div className=" w-[240px] h-[308px]   rounded-t-full rounded-b-3xl">
                 {" "}
               </div>
               <Image
                 src="/deco3.png"
                 width="200"
                 height="200"
-                className="relative bottom-[670px] -left-16"
+                className="relative bottom-[650px] -left-16"
               />
             </div>
             <div>

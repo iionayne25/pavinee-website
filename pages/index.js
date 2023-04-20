@@ -7,6 +7,7 @@ import BtnProject from "../components/btnProject";
 import Link from "next/link";
 import Footer from "@/components/Footer";
 import TimelineList from "@/components/TimelineList";
+import NavigateItems from "@/components/NavigateItems";
 export default function Home() {
   return (
     <>
@@ -61,8 +62,9 @@ export default function Home() {
           <div className="pt-8">
             <TimelineList />
           </div>
+          <NavigateItems/>
 
-          <div className="flex justify-center items-center pt-8 md:gap-20 xl:pt-8 md:pt-24">
+          {/* <div className="flex justify-center items-center pt-8 md:gap-20 xl:pt-8 md:pt-24">
             <Link href="/about">
               <div className="flex flex-col justify-center items-center text-xs   gap-2 hover:translat-y-1 hover:scale-110 hover:text-green md:text-sm">
                 <Image
@@ -96,7 +98,7 @@ export default function Home() {
                 <p>Projects</p>
               </div>
             </Link>
-          </div>
+          </div> */}
           <div className="relative bottom-[1100px] -left-[105px] md:bottom-80 md:-left-[130px] w-fit xl:text-base">
             <Image
               src="/deco1.png"

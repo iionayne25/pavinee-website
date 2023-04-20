@@ -50,8 +50,8 @@ const index = () => {
             <div className="grid grid-cols-1 md:grid-cols-4 pt-5 items-center gap-3 lg:flex lg:flex-row">
               <Link href="/projects">
                 <button
-                  className="bg-gray-400 w-[250px] md:w-fit md:px-4 py-[13px] text-base border-b-2 border-gray-600/60 hover:scale-110 rounded-full
-              hover:bg-black hover:text-greenLight font-medium hover:-translate-y-1 lg:text-base "
+                  className="bg-gray-400 w-[250px] md:w-fit md:px-4 py-[13px] text-sm border-b-2 border-gray-600/60 hover:scale-110 rounded-full
+              hover:bg-black hover:text-greenLight font-medium hover:-translate-y-1  "
                 >
                   Back
                 </button>
@@ -68,14 +68,15 @@ const index = () => {
                     boxShadow: 4,
                     "@media only screen and (min-width: 768px)":{
                       minWidth: 115,
-                    }
+                    },
+                    
                   }}
                   size="small"
                 >
                   <InputLabel
                     id="gitHubSelectLabel"
                     sx={{
-                      fontSize: 24,
+                      fontSize: 18,
                       fontFamily: "Merriwether",
                       textAlign: "center",
                       fontWeight: "semi-bold",
@@ -172,21 +173,21 @@ const index = () => {
                 href="/files/poster_physical_therapy_clinic_service_platform.pdf"
                 target="_blank"
               >
-                <button className="btnLink w-[250px] md:w-fit md:px-4 py-[13px] text-base ">Poster</button>
+                <button className="btnLink w-[250px] md:w-fit md:px-4 py-[13px] text-sm ">Poster</button>
               </a>
               <a
                 href="/files/report_physical_therapy_clinic_service_platform.pdf"
                 target="_blank"
               >
                 {" "}
-                <button className="btnLink text-base w-[250px] md:w-fit md:px-4  py-[13px]">Report</button>
+                <button className="btnLink text-sm w-[250px] md:w-fit md:px-4  py-[13px]">Report</button>
               </a>
               <a
                 href="https://www.canva.com/design/DAFOyTPwJ7A/IeglkjZ8lCY43Ds3Ee2lkA/edit?utm_content=DAFOyTPwJ7A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                 className="md:hidden"
                 target="_blank"
               >
-                <button className="btnLink w-[250px] md:w-fit md:px-4 py-[13px] text-base">Presentation</button>
+                <button className="btnLink w-[250px] md:w-fit md:px-4 py-[13px] text-sm">Presentation</button>
               </a>
             </div>
           </div>

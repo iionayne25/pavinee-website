@@ -25,7 +25,7 @@ a {
     @apply w-screen pt-14 xl:pt-14 px-5  md:pt-20 xl:mx-0  bg-yellowLight;
   }
   .navBarContainer {
-    @apply flex gap-2  text-base lg:text-xl;
+    @apply flex gap-2  text-xs;
   }
   .navbarItem {
     @apply hover:text-green;
