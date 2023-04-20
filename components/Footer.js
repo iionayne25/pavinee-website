@@ -17,27 +17,27 @@ const Footer = () => {
   };
   return (
     <>
-    <div className="bg-[#E7FAC4] w-full fixed bottom-0">
-      <div className="flex flex-col justify-center items-center gap-3 py-4">
+    <div className="bg-[#E7FAC4] w-full ">
+      <div className="flex flex-col justify-center items-center gap-3 py-3">
         <div className="flex flex-row gap-5">
           <div>
             <Link href="/">
-              <div className="hover:text-green text-sm">Home</div>
+              <div className="hover:text-green text-xs">Home</div>
             </Link>
           </div>
           <div>
             <Link href="/about">
-              <div className="hover:text-green text-sm">About</div>
+              <div className="hover:text-green text-xs">About</div>
             </Link>
           </div>
           <div>
             <Link href="/resume">
-              <div className="hover:text-green text-sm">Resume</div>
+              <div className="hover:text-green text-xs">Resume</div>
             </Link>
           </div>
           <div>
             <Link href="/projects">
-              <div className="hover:text-green text-sm">Projects</div>
+              <div className="hover:text-green text-xs">Projects</div>
             </Link>
           </div>
         </div>

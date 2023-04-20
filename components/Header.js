@@ -49,7 +49,7 @@ const Header = () => {
         <div className="md:hidden">
           <Hamburger />
         </div>
-        <div className="flex flex-col items-center fixed bottom-32 right-5 gap-4 md:static md:flex md:right-0 md:flex-row md:gap-2">
+        <div className="flex flex-col items-center fixed bottom-4 right-3 gap-4 md:static md:flex md:right-0 md:flex-row md:gap-2">
           <a
             href="https://www.facebook.com/Siggie.Brownie"
             target="_blank"
