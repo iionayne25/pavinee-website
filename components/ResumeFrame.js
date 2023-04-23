@@ -4,8 +4,8 @@ import BtnDownload from "@/components/btnDownload";
 const ResumeFrame = () => {
   return (
     <>
-      <div>
-        <div className="absolute top-20 left-10 md:left-20  lg:left-48 xl:left-[260px] ">
+     
+        <div className="absolute top-20 left-10 md:left-20  lg:left-64 xl:left-[260px] ">
           <div className="flex flex-col justify-center items-center  gap-5 ">
             <div className="items-center relative top-2 border-8 border-green rounded-2xl ">
               <iframe
@@ -23,7 +23,7 @@ const ResumeFrame = () => {
             </div>
           </div>
         </div>
-      </div>
+      
     </>
   );
 };

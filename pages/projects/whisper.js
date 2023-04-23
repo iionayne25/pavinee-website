@@ -9,13 +9,13 @@ const index = () => {
     <>
       <Head>
         <title>Pavinee | Projects</title>
-        <link rel="icon" href="/icon.svg" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <div className="main pt-20 pb-[630px] md:pb-16 flex flex-col gap-5 ">
-        <div className="flex flex-row justify-between items-center">
+      <div className="main pt-20 pb-[630px] md:pb-16  xl:px-4 overflow-x-hidden">
+        <div className="flex flex-row justify-between items-center px-5">
           <p className="text-2xl font-semibold flex-wrap text-green">Whisper</p>
-          <div className="flex flex-row  items-center gap-3">
+          
             <Link href="/projects">
               <button
                 className="bg-gray-400 px-5 md:px-8 py-2 text-xs border-b-2 border-gray-600/60 hover:scale-110 rounded-full
@@ -24,7 +24,7 @@ const index = () => {
                 Back
               </button>
             </Link>
-          </div>
+          
         </div>
         <div className="pt-4 self-center">
           <a
@@ -42,7 +42,7 @@ const index = () => {
             src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFbxV7U6do&#x2F;8r6bt2ycgHBV1cpy_0erIg&#x2F;view?embed"
             allowFullScreen="allowFullScreen"
             allow="fullScreen"
-            className="w-[800px] h-[500px] rounded-3xl"
+            className="rounded-3xl md:w-[700px] md:h-[500px] lg:w-[750px] lg:h-[600px] xl:w-[900px]"
           ></iframe>
         </div>
       </div>

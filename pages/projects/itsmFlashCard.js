@@ -8,25 +8,25 @@ const index = () => {
     <>
       <Head>
         <title>Pavinee | Projects</title>
-        <link rel="icon" href="/icon.svg" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <div className="main flex flex-col gap-5 md:pb-64 pb-48  pt-24 overflow-scroll">
-        <div className="flex flex-col xl:flex-row gap-5 justify-between items-center">
+      <div className="main flex flex-col gap-5 md:pb-28 pb-48  pt-20 md:pt-14">
+        <div className="flex flex-col xl:flex-row gap-5 justify-between items-center lg:px-5">
           <p className="text-2xl font-semibold flex-wrap text-green">
             IT Service Management Flashcard
           </p>
-          <div className="flex flex-col gap-5 md:flex-row items-center pt-5">
+          <div className="flex flex-col gap-5 md:flex-row items-center ">
             <Link href="/projects">
               <button
-                className="bg-gray-400 w-[330px] py-3 text-base md:w-fit md:px-4 md:py-2 md:text-sm border-b-2 border-gray-600/60 hover:scale-110 rounded-full
+                className="bg-gray-400 w-[330px] py-3 text-base md:w-fit md:px-6 md:py-1 md:text-[16px] border-b-2 border-gray-600/60 hover:scale-110 rounded-full
               hover:bg-black hover:text-greenLight font-medium hover:-translate-y-1"
               >
                 Back
               </button>
             </Link>
             <a href="https://justremember.vercel.app/" target="_blank">
-              <button className="btnLink text-base py-3 md:text-sm w-[330px] md:w-fit md:px-4  md:py-2 ">
+              <button className="btnLink text-base py-3 md:text-[16px] w-[330px] md:w-fit md:px-6  md:py-1 ">
                 Play Game
               </button>
             </a>
@@ -34,7 +34,7 @@ const index = () => {
               href="https://github.com/yanisapths/itil-memory-game"
               target="_blank"
             >
-              <button className="btnLink text-base py-3  w-[330px] md:text-sm md:w-fit md:px-4 md:py-2">
+              <button className="btnLink text-base py-3  w-[330px] md:text-[16px] md:w-fit md:px-6 md:py-1">
                 GitHub
               </button>
             </a>
@@ -53,7 +53,7 @@ const index = () => {
             src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFc8D_ZvLA&#x2F;h0odzpEjCXsfhWPNryEnOA&#x2F;view?embed"
             allowFullScreen="allowFullScreen"
             allow="fullScreen"
-            className="w-[800px] h-[500px]  rounded-xl"
+            className="rounded-3xl md:w-[700px] md:h-[500px] lg:w-[750px] lg:h-[600px] xl:w-[900px]"
           ></iframe>
         </div>
       </div>
