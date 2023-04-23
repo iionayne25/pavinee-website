@@ -59,7 +59,7 @@ const TimelineCard = () => {
             src="/computer.png"
             width="250"
             height="200"
-            className="absolute  md:-right-8 md:-bottom-32 xl:-right-14 xl:-bottom-16"
+            className="absolute  md:-right-8 md:-bottom-36 xl:-right-14 xl:-bottom-16"
           />
         </div>
         <div className="absolute md:text-[18x]  md:right-3 md:bottom-[50px] xl:text-[15px] xl:right-2 xl:bottom-[95px]">

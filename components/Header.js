@@ -55,21 +55,21 @@ const Header = () => {
             target="_blank"
             className="md:hover:text-[#1773EA] md:text-black text-[#1773EA] bg-slate-50 ring-2  ring-greenLight  rounded-full shadow-xl p-1 md:bg-transparent md:shadow-none md:ring-0 "
           >
-            <FacebookRoundedIcon className="w-20 h-20 md:w-6 md:h-6" />
+            <FacebookRoundedIcon className="w-14 min-w-full h-14 min-h-full md:w-6 md:h-6" />
           </a>
           <a
             href="https://www.linkedin.com/in/pavinee-sut/"
             target="_blank"
             className="md:hover:text-[#0073B1] md:text-black text-[#0073B1] bg-slate-50 ring-2 ring-greenLight rounded-full shadow-xl p-1 md:bg-transparent md:shadow-none md:ring-0  "
           >
-            <LinkedInIcon className="w-20 h-20 md:w-6 md:h-6" />
+            <LinkedInIcon className="w-14 min-w-full h-14 min-h-full md:w-6 md:h-6" />
           </a>
           <a
             href="https://www.instagram.com/iionayne/"
             target="_blank"
             className="md:hover:text-[#F70080] md:text-black text-[#F70080] bg-slate-50 ring-2 ring-greenLight rounded-full shadow-xl p-1 md:bg-transparent md:shadow-none md:ring-0  "
           >
-            <InstagramIcon className="w-20 h-20 md:w-6 md:h-6" />
+            <InstagramIcon className="w-14 min-w-full h-14 min-h-full md:w-6 md:h-6" />
           </a>
 
           <Mailto
@@ -77,7 +77,7 @@ const Header = () => {
             subject="Hello, Pavinee!"
             body=""
           >
-            <MailOutlineIcon className=" w-28 h-28 md:w-12 md:h-12 text-gray-400 bg-slate-50  ring-2 ring-greenLight rounded-full shadow-xl p-1 md:text-black md:hover:text-gray-400 md:bg-transparent md:shadow-none md:ring-0 " />
+            <MailOutlineIcon className=" w-14 min-w-full h-14 min-h-full md:w-9 md:min-w-full md:h-9 md:min-h-full text-gray-400 bg-slate-50  ring-2 ring-greenLight rounded-full shadow-xl p-1 md:text-black md:hover:text-gray-400 md:bg-transparent md:shadow-none md:ring-0 " />
           </Mailto>
         </div>
       </div>
