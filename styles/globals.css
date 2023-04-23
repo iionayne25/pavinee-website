@@ -22,7 +22,7 @@ a {
 
 @layer components {
   .main {
-    @apply w-screen pt-14 xl:pt-14 px-5  md:pt-20 xl:mx-0  bg-yellowLight;
+    @apply w-full px-6 pt-14 bg-yellowLight;
   }
   .navBarContainer {
     @apply flex gap-2  text-xs;
@@ -47,7 +47,7 @@ a {
     @apply text-[11px];
   }
   .btnLink{
-  @apply bg-greenBtn px-3 py-1 text-xs shadow-xl border-b border-gray-600/70 hover:scale-110 hover:-translate-y-1 rounded-full
+  @apply bg-greenBtn px-3 py-1 text-xs shadow-xl border-b-2 border-gray-600/30 hover:scale-110 hover:-translate-y-1 rounded-full
   hover:bg-black hover:text-greenLight font-medium
   }
   

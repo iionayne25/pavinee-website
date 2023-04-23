@@ -4,10 +4,10 @@ const ProjectCard = ({ src, title, name, courseName, gitHubLink }) => {
   return (
     <div className="">
       <div
-        className="bg-greenBtn/80 rounded-3xl w-48 h-[390px] flex flex-col justify-start  items-center shadow-2xl 
+        className="bg-greenBtn/80 rounded-3xl w-56 h-[390px] flex flex-col justify-start  items-center shadow-2xl 
       hover:scale-110 hover:shadow-2xl cursor-pointer  "
       >
-        <div className="bg-white w-[209px] h-[216px] my-3 rounded-3xl ">
+        <div className="bg-white my-3 rounded-3xl ">
           <Image
             src={src}
             width={210}
