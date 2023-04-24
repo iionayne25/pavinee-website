@@ -40,7 +40,7 @@ export default function Home() {
                     {":>"} Chiang Mai University
                   </p>
                 </div>
-                <div className=" flex items-center gap-3 pt-6  ">
+                <div className=" flex items-center gap-3 pt-6 md:flex-row  ">
                   <div className="hover:scale-110 w-fit  ">
                     <BtnDownload />
                   </div>
