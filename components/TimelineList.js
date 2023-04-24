@@ -6,7 +6,7 @@ const TimelineList = () => {
     <div>
     <ol className="border-l border-gray-400 md:hidden ">
         <li className="mb-5 ml-4">
-          <div class="relative w-3 h-3 bg-green/60 rounded-full mt-1.5 -left-[24px] border border-white "></div>
+          <div class="relative w-3 h-3 bg-green/60 rounded-full mt-1.5 -left-[27px] border border-white "></div>
           <time class="mb-1 text-sm font-normal leading-none text-gray-400 ">
             June 2019
           </time>
@@ -18,7 +18,7 @@ const TimelineList = () => {
           </p>
         </li>
         <li className="mb-5 ml-4">
-          <div class="relative w-3 h-3 bg-green/60 rounded-full mt-1.5 -left-[24px] border border-white "></div>
+          <div class="relative w-3 h-3 bg-green/60 rounded-full mt-1.5 -left-[27px] border border-white "></div>
           <time class="mb-1 text-sm font-normal leading-none text-gray-400 ">
             June - October 2022
           </time>
@@ -28,7 +28,7 @@ const TimelineList = () => {
           </p>
         </li>
         <li className="mb-5 ml-4">
-          <div class="relative w-3 h-3 bg-green/60 rounded-full mt-1.5 -left-[24px] border border-white "></div>
+          <div class="relative w-3 h-3 bg-green/60 rounded-full mt-1.5 -left-[27px] border border-white "></div>
           <time class="mb-1 text-sm font-normal leading-none text-gray-400 ">
             Mar 2023
           </time>
@@ -40,7 +40,7 @@ const TimelineList = () => {
           </p>
         </li>
         <li className="mb-10 ml-4">
-          <div class="relative w-3 h-3 bg-green/60 rounded-full mt-1.5 -left-[24px] border border-white "></div>
+          <div class="relative w-3 h-3 bg-green/60 rounded-full mt-1.5 -left-[27px] border border-white "></div>
           <time class="mb-1 text-sm font-normal leading-none text-gray-400 ">
             May 2023
           </time>
