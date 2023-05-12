@@ -62,25 +62,22 @@ const Header = () => {
             target="_blank"
             className="md:hover:text-[#0073B1] md:text-black text-[#0073B1] bg-slate-50 ring-2 ring-greenLight rounded-full shadow-xl p-1 md:bg-transparent md:shadow-none md:ring-0  "
           >
-            <LinkedInIcon className="w-10 h-10 min-h-full min-w-ful md:w-6 md:h-6" />
+            <LinkedInIcon className="w-10 h-10 min-h-full min-w-full md:w-6 md:h-6" />
           </a>
           <a
             href="https://www.instagram.com/iionayne/"
             target="_blank"
             className="md:hover:text-[#F70080] md:text-black text-[#F70080] bg-slate-50 ring-2 ring-greenLight rounded-full shadow-xl p-1 md:bg-transparent md:shadow-none md:ring-0  "
           >
-            <InstagramIcon className="w-10 h-10 min-h-full min-w-ful md:w-6 md:h-6" />
+            <InstagramIcon className="w-10 h-10 min-h-full min-w-full md:w-6 md:h-6" />
           </a>
+          <a href="mailto:pavinee.suthamjaem.com"
+          target="_blank"
+          className="text-gray-400 bg-slate-50  ring-2 ring-greenLight rounded-full shadow-xl p-1 md:text-black md:hover:text-gray-400 md:bg-transparent md:shadow-none md:ring-0">
+            
+            <MailOutlineIcon  className="w-10 h-10 min-h-full min-w-full md:w-6 md:h-6"/>
 
-          <div className="box-content">
-          <Mailto
-            email="pavinee.suthamjaem@gmail.com"
-            subject="Hello, Pavinee!"
-            body=""
-          >
-            <MailOutlineIcon className=" w-12 h-12 min-h-full min-w-ful md:w-8 md:h-8  text-gray-400 bg-slate-50  ring-2 ring-greenLight rounded-full shadow-xl p-1 md:text-black md:hover:text-gray-400 md:bg-transparent md:shadow-none md:ring-0 " />
-          </Mailto>
-          </div>
+          </a>
           
         </div>
       </div>
