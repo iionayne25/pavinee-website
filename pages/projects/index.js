@@ -42,7 +42,6 @@ const index = () => {
           </Link>
 
           <ProjectCard
-            className="hover:scale-100"
             src="/bearBrickLogo.png"
             title="In Course Project"
             name="BearBrick"
