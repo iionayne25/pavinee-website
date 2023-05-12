@@ -12,9 +12,9 @@ const index = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <div className="main pt-20 pb-[630px] md:pb-16  xl:px-4 overflow-x-hidden">
-        <div className="flex flex-row justify-between items-center px-5">
-          <p className="text-2xl font-semibold flex-wrap text-green">Whisper</p>
+      <div className="main pt-20 pb-[630px] md:pb-12  xl:px-4 overflow-x-hidden">
+        <div className="flex flex-row justify-between items-center px-5 pb-5 md:pb-0">
+          <p className="text-2xl font-semibold flex-wrap md:text-3xl">Whisper</p>
           
             <Link href="/projects">
               <button

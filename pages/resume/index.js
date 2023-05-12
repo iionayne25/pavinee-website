@@ -25,24 +25,11 @@ const index = () => {
       </Head>
       <Header />
 
-      <div className="main pt-12 my-4 pb-0 h-screen md:h-full xl:pt-32 xl:pb-10 w-screen overflow-clip md:overflow-none ">
+      <div className="main  my-4 pb-0 h-screen md:h-full lg:my-10 lg:pb-10 xl:pt-16 xl:pb-10 w-screen overflow-clip md:overflow-none ">
         <div className="my-4 flex flex-col gap-3 items-center md:hidden">
           <BtnDownload />
           <BtnViewResume/>
         </div>
-
-        <Image
-          src="/deco4.png"
-          width={450}
-          height={200}
-          className="hidden md:relative  md:-bottom-[450px]  xl:-bottom-[520px] "
-        />
-        <Image
-          src="/circle3.svg"
-          width={400}
-          height={400}
-          className="relative top-0 -left-32 xl:top-[300px]  rounded-full xl:left-[1000px] "
-        />
 
         <div className="hidden md:flex md:justify-center md:items-center h-screen ">
         <ResumeFrame />

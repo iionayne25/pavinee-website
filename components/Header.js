@@ -49,7 +49,7 @@ const Header = () => {
         <div className="md:hidden">
           <Hamburger />
         </div>
-        <div className="flex flex-col items-center fixed bottom-4 right-3 gap-4 md:static md:flex md:right-0 md:flex-row md:gap-2">
+        <div className="flex flex-col items-center box-content fixed bottom-4 right-3 gap-4 md:static md:flex md:right-0 md:flex-row md:gap-2">
           <a
             href="https://www.facebook.com/Siggie.Brownie"
             target="_blank"
@@ -72,13 +72,16 @@ const Header = () => {
             <InstagramIcon className="w-10 h-10 min-h-full min-w-ful md:w-6 md:h-6" />
           </a>
 
+          <div className="box-content">
           <Mailto
             email="pavinee.suthamjaem@gmail.com"
             subject="Hello, Pavinee!"
             body=""
           >
-            <MailOutlineIcon className=" w-12 h-12 min-h-full min-w-ful md:w-9 md:h-9 text-gray-400 bg-slate-50  ring-2 ring-greenLight rounded-full shadow-xl p-1 md:text-black md:hover:text-gray-400 md:bg-transparent md:shadow-none md:ring-0 " />
+            <MailOutlineIcon className=" w-12 h-12 min-h-full min-w-ful md:w-8 md:h-8  text-gray-400 bg-slate-50  ring-2 ring-greenLight rounded-full shadow-xl p-1 md:text-black md:hover:text-gray-400 md:bg-transparent md:shadow-none md:ring-0 " />
           </Mailto>
+          </div>
+          
         </div>
       </div>
     </div>

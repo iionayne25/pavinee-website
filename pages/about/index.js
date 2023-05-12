@@ -27,9 +27,9 @@ const index = () => {
               </div>
               <Image
                 src="/deco3.png"
-                width="200"
-                height="200"
-                className="relative bottom-[650px] -left-16"
+                width={150}
+                height={150}
+                className="relative bottom-[650px] -left-10"
               />
             </div>
             <div>
@@ -45,9 +45,7 @@ const index = () => {
                   <span className="font-semibold">Hobby:</span> Crochet, Read
                   Books,Play Game
                 </p>
-                <p>
-                  <span className="font-semibold">Toeic Score:</span>
-                </p>
+               
                 <div className="flex gap-2 items-center">
                   <GitHubIcon />
                   <a
@@ -55,7 +53,31 @@ const index = () => {
                     target="_blank"
                     className="hover:underline"
                   >
-                    https://github.com/iionayne25
+                    github.com/iionayne25
+                  </a>
+                </div>
+                <div className="flex gap-2 items-center">
+                  <Image
+                  src="/frontendmentoricon.png"
+                  width={33}
+                  height={33}
+                  />
+                  <a href="https://www.frontendmentor.io/profile/iionayne25"
+                  target="_blank"
+                  className="hover:underline flex-wrap">
+                  frontendmentor.io
+                  </a>
+                </div>
+                <div className="flex gap-2 items-center">
+                  <Image
+                  src="/leetcodeIcon.png"
+                  width={24}
+                  height={24}
+                  />
+                  <a href="https://leetcode.com/iionayne/"
+                  target="_blank"
+                  className="hover:underline flex-wrap">
+                  leetcode.com/iionayne
                   </a>
                 </div>
               </div>

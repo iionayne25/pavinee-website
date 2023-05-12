@@ -31,10 +31,10 @@ export default function Home() {
                     Pavinee
                   </p>
                   <p className="text-3xl font-bold pl-20 text-green md:text-6xl ">
-                    Suthamjeam
+                    Suthamjaem
                   </p>
                   <p className="pt-5 text-black/50 whitespace-wrap">
-                    {":>"} Bachelor of Computer Engineering
+                    {":>"} Bachelor of Information Systems and Network Engineering
                   </p>
                   <p className=" text-black/50  ">
                     {":>"} Chiang Mai University

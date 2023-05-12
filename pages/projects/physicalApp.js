@@ -27,30 +27,16 @@ const index = () => {
       </Head>
       <Header />
 
-      <div className="main w-full pt-20 pb-48 md:pb-40 md:pt-12 ">
+      <div className="main w-full pt-16 pb-48 md:pb-40 md:pt-12 ">
         <div className="md:flex md:flex-col md:gap-5 pt-5">
-          <div className="flex flex-col xl:flex-row justify-between items-center">
-            <div className="flex flex-col md:flex-row gap-2 items-center">
-              <Image
-                src="/oliveLogo.png"
-                width="90"
-                height="90"
-                className="hidden lg:block lg:rounded-full"
-              />
-              <Image
-                src="/oliveLogo.png"
-                width="250"
-                height="250"
-                className=" md:hidden rounded-full"
-              />
-              <p className="text-2xl text-center break-normal w-fit text-ellipsis lg:text-2xl font-semibold flex-wrap text-green ">
-                Physical Therapy Clnic Service Platform
+          <div className="flex flex-col xl:flex-row justify-between items-center">        
+              <p className="flex items-center text-center text-xl pb-5 break-normal  text-ellipsis lg:text-left lg:text-2xl font-semibold flex-wrap">
+                Physical Therapy Clnic Service Management Platform
               </p>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-4 pt-5 items-center gap-3 lg:flex lg:flex-row">
+            <div className="grid grid-cols-1 md:grid-cols-4  items-start gap-3 lg:flex lg:flex-row">
               <Link href="/projects">
                 <button
-                  className="bg-gray-400 w-[250px] md:w-fit md:px-6 py-[11px] text-[16px] border-b-2 border-gray-600/30 hover:scale-110 rounded-full
+                  className="bg-gray-400 w-[250px] md:w-fit md:px-6 py-[10px] text-[16px] border-b-2 border-gray-600/30 hover:scale-110 rounded-full
               hover:bg-black hover:text-greenLight font-medium hover:-translate-y-1  "
                 >
                   Back
@@ -60,6 +46,7 @@ const index = () => {
                 <FormControl
                   sx={{
                     minWidth: 250,
+                    height: 43,
                     borderRadius: 50,
                     backgroundColor: "#D7ECB0",
                     textAlign: "center",
@@ -68,6 +55,7 @@ const index = () => {
                     boxShadow: 4,
                     "@media only screen and (min-width: 768px)": {
                       minWidth: 115,
+                      
                     },
                   }}
                   size="small"
@@ -91,7 +79,6 @@ const index = () => {
                   <Select
                     sx={{
                       boxShadow: "none",
-
                       ".MuiOutlinedInput-notchedOutline": { border: 0 },
                       "&.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline":
                         {
@@ -172,7 +159,7 @@ const index = () => {
                 href="/files/poster_physical_therapy_clinic_service_platform.pdf"
                 target="_blank"
               >
-                <button className="btnLink w-[250px] md:w-fit md:px-6 py-[13px] text-[16px] ">
+                <button className="btnLink w-[250px] md:w-fit md:px-6 py-[11px] text-[16px] ">
                   Poster
                 </button>
               </a>
@@ -181,7 +168,7 @@ const index = () => {
                 target="_blank"
               >
                 {" "}
-                <button className="btnLink text-sm w-[250px] md:w-fit md:px-6 py-[11px] text-[16px]">
+                <button className="btnLink  w-[250px] md:w-fit md:px-6 py-[11px] text-[16px]">
                   Report
                 </button>
               </a>
@@ -190,7 +177,7 @@ const index = () => {
                 className="md:hidden"
                 target="_blank"
               >
-                <button className="btnLink w-[250px] md:w-fit md:px-4 py-[13px] text-sm">
+                <button className="btnLink w-[250px] md:w-fit md:px-4 py-[11px] text-sm">
                   Presentation
                 </button>
               </a>
@@ -212,7 +199,7 @@ const index = () => {
                 </button>
               </a>
               <a href="https://daycare-portal.vercel.app/" target="_blank">
-                <button className="bg-yellow px-4 py-2 text-base shadow-xl hover:scale-105 rounded-full hover:bg-black hover:text-yellow hover:-translate-y-1 lg:text-[16px]">
+                <button className="bg-yellow px-4 py-2 text-[18px] shadow-xl hover:scale-105 rounded-full hover:bg-black hover:text-yellow hover:-translate-y-1 lg:text-[16px]">
                   Visit Clinic Management App{" "}
                 </button>
               </a>

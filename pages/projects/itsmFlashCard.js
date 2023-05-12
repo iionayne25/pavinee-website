@@ -13,7 +13,7 @@ const index = () => {
       <Header />
       <div className="main flex flex-col gap-5 md:pb-28 pb-48  pt-20 md:pt-14">
         <div className="flex flex-col xl:flex-row gap-5 justify-between items-center lg:px-5">
-          <p className="text-2xl font-semibold flex-wrap text-green">
+          <p className="text-2xl font-semibold flex-wrap text-center lg:text-left">
             IT Service Management Flashcard
           </p>
           <div className="flex flex-col gap-5 md:flex-row items-center ">
