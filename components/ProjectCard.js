@@ -4,8 +4,8 @@ const ProjectCard = ({ src, title, name, courseName, gitHubLink }) => {
   return (
     <div className="">
       <div
-        className="bg-greenBtn/80 rounded-3xl w-56 h-[390px] flex flex-col justify-start  items-center shadow-2xl 
-      hover:scale-110 hover:shadow-2xl cursor-pointer  "
+        className="bg-greenBtn/80 content-box rounded-3xl w-52 h-[390px] flex flex-col justify-start  items-center shadow-2xl 
+      hover:scale-110 hover:drop-shadow-xl hover:shadow-green cursor-pointer  "
       >
         <div className="bg-white my-3 rounded-3xl ">
           <Image
@@ -27,7 +27,7 @@ const ProjectCard = ({ src, title, name, courseName, gitHubLink }) => {
             <a href={gitHubLink} target="_blank">
               <button
                 className="bg-black text-greenLight px-3 py-1 text-[14px] shadow-xl border-b border-gray-600/70   rounded-full
-    hover:bg-gray-300 hover:text-black font-medium"
+              hover:bg-gray-300 hover:text-black font-medium"
                 target="_blank"
               >
                 GitHub
