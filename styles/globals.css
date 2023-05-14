@@ -24,19 +24,18 @@ a {
   .main {
     @apply w-full px-6 pt-14 bg-yellowLight;
   }
+  /*-----Nav Bar----*/
   .navBarContainer {
     @apply flex gap-2  text-xs;
   }
   .navbarItem {
     @apply hover:text-green;
   }
-
   .active {
     @apply bg-greenBtn rounded-full px-2 hover:text-black;
   }
-  .titleItem{
-    @apply space-y-1
-  }
+
+  /*---- About Page ----*/
   .titleAttibute {
     @apply text-green text-sm font-bold pb-1;
   }
@@ -44,11 +43,17 @@ a {
     @apply text-xs font-semibold;
   }
   .description {
-    @apply text-[11px];
+    @apply text-[13px];
   }
+
+
   .btnLink{
   @apply bg-greenBtn px-3 py-1 text-xs shadow-xl border-b-2 border-gray-600/30 hover:scale-110 hover:-translate-y-1 rounded-full
   hover:bg-black hover:text-greenLight font-medium
+  }
+
+  .linkContainer{
+   @apply flex gap-2 items-center
   }
   
 }

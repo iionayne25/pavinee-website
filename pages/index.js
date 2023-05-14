@@ -8,38 +8,22 @@ import Link from "next/link";
 import Footer from "@/components/Footer";
 import TimelineList from "@/components/TimelineList";
 import NavigateItems from "@/components/NavigateItems";
+import PersonalInfo from "@/components/PersonalInfo";
+
 export default function Home() {
   return (
     <>
       <Head>
         <title>Pavinee | Home</title>
-        <link rel="shortvut icon" href="/favicon.ico" />
+        <meta name="description" content="This is home page of my website" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
       <div className="main lg:px-4 flex flex-col justify-center items-center ">
-        <div className=" flex flex-col lg:w-11/12 justify-center items-center ">
-          <div className="flex flex-col pt-4 md:w-full ">
-            <div className="xl:flex xl:flex-row xl:w-1/2 ">
-              <div className="">
-                <div className="text-black/50   ">
-                  <p className="whitespace-nowrap overflow-hidden animate-typing   ">
-                    {":>"}print(Hello, Welcome to my site..)
-                  </p>
-                </div>
-                <div>
-                  <p className="text-3xl font-bold pt-4 text-green md:text-6xl ">
-                    Pavinee
-                  </p>
-                  <p className="text-3xl font-bold pl-20 text-green md:text-6xl ">
-                    Suthamjaem
-                  </p>
-                  <p className="pt-5 text-black/50 whitespace-wrap">
-                    {":>"} Bachelor of Information Systems and Network Engineering
-                  </p>
-                  <p className=" text-black/50  ">
-                    {":>"} Chiang Mai University
-                  </p>
-                </div>
+        <div className=" flex flex-col lg:w-11/12 pt-4 md:w-full justify-center items-center ">
+            <div className="xl:flex xl:flex-row xl:w-1/2 xl:justify-center xl:items-center ">
+              <div>
+                <PersonalInfo/>
                 <div className=" flex items-center gap-3 pt-6 md:flex-row  ">
                   <div className="hover:scale-110 w-fit  ">
                     <BtnDownload />
@@ -55,7 +39,6 @@ export default function Home() {
                   <TimelineCard />
                 </div>
             </div>
-          </div>
           <div className="md:pt-6 lg:pt-8 xl:hidden">
             <TimelineCard />
           </div>
@@ -73,7 +56,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Footer className="" />
+      <Footer/>
     </>
   );
 }
