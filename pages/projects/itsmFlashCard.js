@@ -13,11 +13,12 @@ const index = () => {
       </Head>
       <Header />
       <main className="main flex flex-col gap-5 md:pb-28 pb-48  pt-20 md:pt-14">
-        <div className="flex flex-col gap-5 justify-end items-center lg:px-5">
+        
+        <div className="flex flex-col gap-5 justify-end items-center ">
           <h5 className="text-2xl font-semibold flex-wrap text-center md:hidden">
             IT Service Management Flashcard
           </h5>
-          <div className="flex flex-col justify-end gap-5  md:flex-row items-center md:items-end ">
+          <div className="flex flex-col md:justify-end gap-5 md:self-end  md:flex-row items-center md:items-end ">
             <Link href="/projects">
               <button
                 className="bg-gray-400 w-[330px] py-3 text-base md:w-fit md:px-6 md:py-1 md:text-[16px] 
