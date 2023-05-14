@@ -13,7 +13,7 @@ const index = () => {
       </Head>
       <Header />
       <main className="main flex flex-col gap-5 md:pb-28 pb-48  pt-20 md:pt-14">
-        <div className="flex flex-col xl:flex-row gap-5 justify-end items-center lg:px-5">
+        <div className="flex flex-col gap-5 justify-end items-center lg:px-5">
           <h5 className="text-2xl font-semibold flex-wrap text-center md:hidden">
             IT Service Management Flashcard
           </h5>
