@@ -111,8 +111,7 @@ const Summary = () => {
           <p className="description">Suanboonyopatham Lamphun School,</p>
           <time className="text-[13px]">2013-2019</time>
           <p className="description">GPA 3.84</p>
-          <p className="topic pt-1">Bechelor of Computer Engineering, </p>
-          <p className="description">Major Information Systems and Network</p>
+          <p className="topic pt-1">Bechelor of Information Systems and Network Engineering, </p>
           <p className="description">Chiang Mai University, </p>
           <time className="text-[13px]">August 2019 - April 2023</time>
           <p className="description">GPA 3.06</p>

@@ -4,7 +4,7 @@ const ProjectCard = ({ src, title, name, courseName, gitHubLink }) => {
   return (
     <div className="">
       <div
-        className="bg-greenBtn/80 content-box rounded-3xl w-56  xl:w-52 h-[390px] flex flex-col justify-start  items-center shadow-2xl 
+        className="bg-greenBtn/80 content-box rounded-3xl w-56  xl:w-48 h-[390px] flex flex-col justify-start  items-center shadow-2xl 
       hover:scale-110 hover:drop-shadow-xl hover:shadow-green cursor-pointer  "
       >
         <div className="bg-white my-3 rounded-3xl ">
