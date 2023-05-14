@@ -2,7 +2,7 @@ import React from "react";
 
 const TimelineList = () => {
   return (
-    <>
+
     <div>
     <ol className="border-l border-gray-400 md:hidden ">
         <li className="mb-5 ml-4">
@@ -36,7 +36,7 @@ const TimelineList = () => {
             Senior Project - Phisical Therapy Clinic Service Platform
           </h3>
           <p class="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
-            DPlus+ Intertrade Schorlaship Award
+            DPlus+ Intertrade Scholarship Award
           </p>
         </li>
         <li className="mb-10 ml-4">
@@ -51,8 +51,6 @@ const TimelineList = () => {
         </li>
       </ol>
     </div>
-      
-    </>
   );
 };
 

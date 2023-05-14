@@ -23,17 +23,20 @@ const index = () => {
     <>
       <Head>
         <title>Pavinee | Projects</title>
+        <meta
+          name="description"
+          content="This is Senior Project page of my website"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-
-      <div className="main w-full pt-16 pb-48 md:pb-40 md:pt-12 ">
+      <main className="main w-full pt-16 pb-48 md:pb-40 md:pt-12 ">
         <div className="md:flex md:flex-col md:gap-5 pt-5">
-          <div className="flex flex-col xl:flex-row justify-between items-center">        
-              <p className="flex items-center text-center text-xl pb-5 break-normal  text-ellipsis lg:text-left lg:text-2xl font-semibold flex-wrap">
-                Physical Therapy Clnic Service Management Platform
-              </p>
-            <div className="grid grid-cols-1 md:grid-cols-4  items-start gap-3 lg:flex lg:flex-row">
+          <div className="flex flex-col xl:flex-row justify-end items-center">
+          <h5 className="flex justify-center items-center text-center text-xl pb-5 break-normal  text-ellipsis  font-semibold flex-wrap md:hidden">
+              Physical Therapy Clnic Service Management Platform
+            </h5>
+            <div className="grid grid-cols-1 justify-center md:grid-cols-4 items-start gap-3 lg:flex lg:flex-row">
               <Link href="/projects">
                 <button
                   className="bg-gray-400 w-[250px] md:w-fit md:px-6 py-[10px] text-[16px] border-b-2 border-gray-600/30 hover:scale-110 rounded-full
@@ -55,7 +58,6 @@ const index = () => {
                     boxShadow: 4,
                     "@media only screen and (min-width: 768px)": {
                       minWidth: 115,
-                      
                     },
                   }}
                   size="small"
@@ -154,7 +156,6 @@ const index = () => {
                   </Select>
                 </FormControl>
               </div>
-
               <a
                 href="/files/poster_physical_therapy_clinic_service_platform.pdf"
                 target="_blank"
@@ -183,7 +184,12 @@ const index = () => {
               </a>
             </div>
           </div>
-          <div className="hidden md:flex md:flex-col md:justify-center md:items-center md:pt-5 ">
+          <div>
+          <h5 className="hidden md:flex md:justify-center md:text-center md:text-xl md:pb-5 lg:text-2xl font-semibold flex-wrap">
+              Physical Therapy Clnic Service Management Platform
+            </h5>
+          </div>
+          <div className="hidden md:flex md:flex-col md:justify-center md:items-center md:pt-5 lg:pt-0 ">
             <iframe
               src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFOyTPwJ7A&#x2F;IeglkjZ8lCY43Ds3Ee2lkA&#x2F;view?embed"
               allowFullScreen="allowFullScreen"
@@ -206,8 +212,7 @@ const index = () => {
             </div>
           </div>
         </div>
-      </div>
-
+      </main>
       <Footer />
     </>
   );
