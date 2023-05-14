@@ -14,7 +14,7 @@ const TimelineList = () => {
             Academic Year 1
           </h3>
           <p class="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
-            Major Information Systems and Network
+            Information Systems and Network Engineering
           </p>
         </li>
         <li className="mb-5 ml-4">
@@ -33,7 +33,7 @@ const TimelineList = () => {
             Mar 2023
           </time>
           <h3 class="text-base font-semibold text-gray-900 ">
-            Senior Project - Phisical Therapy Clinic Service Platform
+            Senior Project - Physical Therapy Clinic Service Platform
           </h3>
           <p class="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
             DPlus+ Intertrade Scholarship Award

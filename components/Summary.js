@@ -4,9 +4,10 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 const Summary = () => {
   return (
     <div>
-      <div className="flex flex-col xl:flex-row gap-10 pt-10">
-        <div className="flex flex-col gap-10 justify-center items-center">
-          <div className="w-[230px] h-[303px] left-[60px] md:left-[240px] lg:items-center xl:w-[230px] xl:h-[303px] xl:left-0 border border-black rounded-t-full rounded-b-3xl ">
+      <div className="flex flex-col xl:flex-row gap-10 ">
+        <div className="flex flex-col gap-10 justify-start items-center pt-6 md:pt-0 ">
+          <div className="w-[230px] h-[303px] left-[60px] md:left-[240px] lg:items-center 
+          xl:w-[230px] xl:h-[303px] xl:left-0 border border-black rounded-t-full rounded-b-3xl ">
             <Image
               src="/profilePic.png"
               width="230"
@@ -87,7 +88,7 @@ const Summary = () => {
         </p>
         <div className="space-y-1">
           <h6 className="titleAttibute">Experience</h6>
-          <p className="topic">Software Engineer,Internship</p>
+          <p className="topic">Software Engineer (Internship)</p>
           <p className="description ">
             Lumentum International(Thailand) Ltd., Co,
           </p>
