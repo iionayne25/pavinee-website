@@ -8,6 +8,7 @@ const ImageCollection = () => {
     "/resume-image.png",
     "/Certificate-Degree-complete.jpg",
     "/Toeic-Cetificate.jpg",
+    "/certificate_lumentum_internship_image.jpg"
   ];
 
   const router = useRouter();
@@ -27,15 +28,25 @@ const ImageCollection = () => {
   };
   return (
     <div>
-      <div className="grid grid-rows-1 md:grid-cols-2 xl:grid-cols-3 gap-5 px-10 justify-center items-center  ">
+      <div className="grid grid-rows-1 md:grid-cols-2 xl:grid-cols-3 gap-5 px-10 justify-center items-center   ">
         {images.map((image, index) => (
+          <div>
+            <h1 className="text-base text-center my-2 text-green font-semibold">
+          {index === 0? "Resume" :
+          index === 1?" Degree complete":
+          index === 2? "Toeic Certificate":
+          index === 3? "Certificate Internship":""}
+          </h1>
           <div key={index} className="hover:scale-110 hover:shadow-2xl">
+            
             <img
               src={image}
               alt={`Image ${index + 1}`}
               onClick={() => handleImageClick(image)}
             />
           </div>
+          </div>
+          
         ))}
       </div>
       {selectedImage && (
@@ -50,7 +61,7 @@ const ImageCollection = () => {
             <img
               src={selectedImage}
               alt="Fullscreen"
-              className="md:w-[450px] lg:w-[500px] xl:w-[450px] "
+              className="md:w-[450px] lg:w-[500px] xl:w-[400px] "
             />
           </div>
         </div>

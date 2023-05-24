@@ -1,10 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Header from "@/components/Header";
-import BtnDownload from "@/components/btnDownload";
 import Footer from "@/components/Footer";
-import ResumeFrame from "@/components/ResumeFrame";
-import BtnViewResume from "@/components/BtnViewResume";
 import ImageCollection from "@/components/ImageCollection";
 const index = () => {
   return (
