@@ -93,15 +93,6 @@ const Summary = () => {
             Lumentum International(Thailand) Ltd., Co,
           </p>
           <time className="text-[13px]">June - October 2022</time>
-          <div className="flex pt-1">
-            <a
-              href="/files/certificate_lumentum_internship.pdf"
-              target="_blank"
-              className="text-[14px] underline "
-            >
-              Certificate
-            </a>
-          </div>
         </div>
         <div className="space-y-1">
           <h6 className="titleAttibute">Education</h6>

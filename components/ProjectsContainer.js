@@ -47,8 +47,8 @@ const ProjectsContainer = () => {
           <ProjectCard
             src="/projects/result-summary-image.png"
             title="Self-Learning Project"
-            name="Summar Results"
-            courseName=""
+            name="Summary Results"
+            courseName="Frontend Mentor Challenge"
           />
           </Link>
           <Link href="/projects/ageCalculator">
@@ -56,7 +56,7 @@ const ProjectsContainer = () => {
             src="/projects/age-caculator-app-image.png"
             title="Self-Learning Project"
             name="Age Calculator App"
-            courseName=""
+            courseName="Frontend Mentor Challenge"
           />
           </Link>
           <Link href="/projects/qrCode">
@@ -64,7 +64,31 @@ const ProjectsContainer = () => {
             src="/projects/frontend-mentor-qr-code.png"
             title="Self-Learning Project"
             name="QR Code Component"
-            courseName=""
+            courseName="Frontend Mentor Challenge"
+          />
+          </Link>
+          <Link href="/projects/spaceToursismWebsite">
+          <ProjectCard
+            src="/projects/space-tourism-website-image.png"
+            title="Self-Learning Project"
+            name="Space Tourism Website"
+            courseName="Frontend Mentor Challenge"
+          />
+          </Link>
+          <Link href="/projects/productPreview">
+          <ProjectCard
+            src="/projects/product-preview-card.png"
+            title="Self-Learning Project"
+            name="Product Preview Card"
+            courseName="Frontend Mentor Challenge"
+          />
+          </Link>
+          <Link href="/projects/interactiveRating">
+          <ProjectCard
+            src="/projects/interactive-rating.png"
+            title="Self-Learning Project"
+            name="Interactive Rating"
+            courseName="Frontend Mentor Challenge"
           />
           </Link>
          

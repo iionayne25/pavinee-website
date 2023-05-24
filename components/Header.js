@@ -35,9 +35,9 @@ const Header = () => {
               <div className="navbarItem">About</div>
             </div>
           </Link>
-          <Link href="/resume">
-            <div className={router.pathname == "/resume" ? "active" : ""}>
-              <div className="navbarItem">Resume</div>
+          <Link href="/document">
+            <div className={router.pathname == "/document" ? "active" : ""}>
+              <div className="navbarItem">Document</div>
             </div>
           </Link>
           <Link href="/projects">

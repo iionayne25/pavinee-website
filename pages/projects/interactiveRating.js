@@ -5,21 +5,21 @@ import Footer from "@/components/Footer";
 import Link from "next/link";
 import Image from "next/image";
 
-const ageCalculator = () => {
+const interactiveRating = () => {
   return (
     <>
       <Head>
         <title>Pavinee | Projects</title>
         <meta
           name="description"
-          content="This is Age Calculator App project page of my website"
+          content="This is Interactive Rating project page of my website"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
       <main className="flex flex-col gap-5 main mb-10">
         <h5 className="text-2xl font-semibold flex-wrap text-center md:hidden">
-          Age Calculator App
+        Interactive Rating
         </h5>
         <div className="flex flex-col justify-end gap-5  md:flex-row items-center md:items-end ">
           <Link href="/projects">
@@ -32,29 +32,29 @@ const ageCalculator = () => {
             </button>
           </Link>
           <a
-            href="https://github.com/iionayne25/age-calculator-app"
+            href="https://github.com/iionayne25/interactive-rating-nextjs"
             target="_blank"
           >
             <button className="btnLink text-base py-3  w-[330px] md:text-[16px] md:w-fit md:px-6 md:py-1">
               GitHub
             </button>
           </a>
-          <a href="https://age-calculator-app-jade.vercel.app/" target="_blank">
+          <a href="https://interactive-rating-nextjs-by-pavinee.up.railway.app/" target="_blank">
             <button className="btnLink text-base py-3  w-[330px] md:text-[16px] md:w-fit md:px-6 md:py-1">
               Visit Website
             </button>
           </a>
         </div>
         <h5 className="hidden md:flex md:text-2xl md:font-semibold md:flex-wrap md:justify-center md:text-center ">
-          Age Calculator App
+        Interactive Rating
         </h5>
         <div className="flex flex-col lg:flex-row gap-2 justify-center items-center">
           <div className="space-y-2 lg:w-1/2 flex flex-col gap-2 justify-center items-center">
             <Image
-              src="/screenshots/age-calculator-desktop.jpg"
+              src="/screenshots/interactive-rating-desktop.jpg"
               width={450}
-              height={500}
-              alt="screenshot  Age Calculator App desktop view image"
+              height={550}
+              alt="screenshot Interactive Rating desktop view image"
               className="rounded-xl"
             />
             <h6 className="text-[14px] text-center">Desktop View</h6>
@@ -62,10 +62,10 @@ const ageCalculator = () => {
           <div className="lg:w-1/2 flex flex-col gap-2 justify-center items-center">
             <div>
               <Image
-                src="/screenshots/age-calculator-mobile.jpg"
+                src="/screenshots/interactive-rating-mobile.jpg"
                 width={135}
                 height={120}
-                alt="screenshot  Age Calculator App mobile view image"
+                alt="screenshot product review card Interactive Rating mobile view image"
                 className="rounded-xl self-center"
               />
             </div>
@@ -80,4 +80,4 @@ const ageCalculator = () => {
   );
 };
 
-export default ageCalculator;
+export default interactiveRating;
