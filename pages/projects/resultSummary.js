@@ -68,7 +68,7 @@ const resultSummary = () => {
                 src="/screenshots/summary-result-mobile.jpg"
                 width={135}
                 height={120}
-                alt="screenshot summay result desktop view image"
+                alt="screenshot summay result mobile view image"
                 className="rounded-xl self-center"
               />
             </div>

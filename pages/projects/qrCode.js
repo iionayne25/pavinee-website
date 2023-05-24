@@ -12,7 +12,7 @@ const qrCode = () => {
         <title>Pavinee | Projects</title>
         <meta
           name="description"
-          content="This is Result Summary project page of my website"
+          content="This is QR Code component project page of my website"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -54,7 +54,7 @@ const qrCode = () => {
               src="/screenshots/qr-code-desktop.jpg"
               width={450}
               height={500}
-              alt="screenshot summay result desktop view image"
+              alt="screenshot QR Code component desktop view image"
               className="rounded-xl"
             />
             <h6 className="text-[14px] text-center">Desktop View</h6>
@@ -65,7 +65,7 @@ const qrCode = () => {
                 src="/screenshots/qr-code-mobile.jpg"
                 width={135}
                 height={120}
-                alt="screenshot summay result desktop view image"
+                alt="screenshot QR Code component mobile view image"
                 className="rounded-xl self-center"
               />
             </div>
