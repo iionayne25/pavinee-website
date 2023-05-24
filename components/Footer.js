@@ -31,8 +31,8 @@ const Footer = () => {
             </Link>
           </div>
           <div>
-            <Link href="/resume">
-              <div className="hover:text-green text-xs">Resume</div>
+            <Link href="/document">
+              <div className="hover:text-green text-xs">Document</div>
             </Link>
           </div>
           <div>

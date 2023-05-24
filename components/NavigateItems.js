@@ -16,7 +16,7 @@ const NavigateItems = () => {
             <p>Profile</p>
           </div>
         </Link>
-        <Link href="/resume">
+        <Link href="/document">
           <div className="flex flex-col justify-center items-center text-xs  gap-2 hover:translat-y-1 hover:scale-110 hover:text-green md:text-sm ">
             <Image
               src="/fileSheet.png"
@@ -24,7 +24,7 @@ const NavigateItems = () => {
               height="150"
               className=" rounded-full"
             />
-            <p>Resume</p>
+            <p>Document</p>
           </div>
         </Link>
         <Link href="/projects">
