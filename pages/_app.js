@@ -8,6 +8,7 @@ import { RecoilRoot } from "recoil";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "@/theme";
 import Head from "next/head";
+import { Analytics } from '@vercel/analytics/react';
 
 const progress = new ProgressBar({
   size: 5,
@@ -32,6 +33,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
         </Head>
         <RecoilRoot>
           <Component {...pageProps} />
+          <Analytics />
         </RecoilRoot>
       </ThemeProvider>
     </SessionProvider>

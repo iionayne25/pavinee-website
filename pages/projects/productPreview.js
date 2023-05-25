@@ -17,8 +17,8 @@ const productPreview = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main className="flex flex-col gap-5 main mb-10">
-        <h5 className="text-2xl font-semibold flex-wrap text-center md:hidden">
+      <main className="flex flex-col gap-5 main mb-10 mt-5 md:mt-0">
+        <h5 className="text-xl font-semibold flex-wrap text-center md:hidden">
         Product Preview Card
         </h5>
         <div className="flex flex-col justify-end gap-5  md:flex-row items-center md:items-end ">
@@ -49,11 +49,11 @@ const productPreview = () => {
         Product Preview Card
         </h5>
         <div className="flex flex-col lg:flex-row gap-2 justify-center items-center">
-          <div className="space-y-2 lg:w-1/2 flex flex-col gap-2 justify-center items-center">
+          <div className="space-y-2 lg:w-1/2 flex flex-col gap-2 justify-center items-center ">
             <Image
               src="/screenshots/product-review-desktop.jpg"
               width={450}
-              height={500}
+              height={210}
               alt="screenshot product review card desktop view image"
               className="rounded-xl"
             />
@@ -64,7 +64,7 @@ const productPreview = () => {
               <Image
                 src="/screenshots/product-review-mobile.jpg"
                 width={135}
-                height={120}
+                height={240}
                 alt="screenshot product review card mobile view image"
                 className="rounded-xl self-center"
               />

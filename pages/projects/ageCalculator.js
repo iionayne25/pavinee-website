@@ -45,7 +45,7 @@ const ageCalculator = () => {
             </button>
           </a>
         </div>
-        <h5 className="hidden md:flex md:text-2xl md:font-semibold md:flex-wrap md:justify-center md:text-center ">
+        <h5 className="hidden md:flex md:text-xl md:font-semibold md:flex-wrap md:justify-center md:text-center ">
           Age Calculator App
         </h5>
         <div className="flex flex-col lg:flex-row gap-2 justify-center items-center">
@@ -54,18 +54,32 @@ const ageCalculator = () => {
               src="/screenshots/age-calculator-desktop.jpg"
               width={450}
               height={500}
-              alt="screenshot  Age Calculator App desktop view image"
+              alt="screenshot Age Calculator App empty input desktop view image"
+              className="rounded-xl"
+            />
+            <Image
+              src="/screenshots/age-calculator-emptyInput-desktop.jpg"
+              width={450}
+              height={500}
+              alt="screenshot  Age Calculator App desktop empty input desktop view image"
               className="rounded-xl"
             />
             <h6 className="text-[14px] text-center">Desktop View</h6>
           </div>
           <div className="lg:w-1/2 flex flex-col gap-2 justify-center items-center">
-            <div>
+            <div className="flex flex-col gap-4 md:flex-row">
               <Image
-                src="/screenshots/age-calculator-mobile.jpg"
-                width={135}
+                src="/screenshots/age-calculator-mobile.jpg.jpg"
+                width={200}
                 height={120}
                 alt="screenshot  Age Calculator App mobile view image"
+                className="rounded-xl self-center"
+              />
+              <Image
+                src="/screenshots/age-calculator-emptyInput-mobile.jpg"
+                width={200}
+                height={120}
+                alt="screenshot  Age Calculator App empty input mobile view image"
                 className="rounded-xl self-center"
               />
             </div>

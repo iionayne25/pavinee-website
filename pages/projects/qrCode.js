@@ -39,14 +39,17 @@ const qrCode = () => {
               GitHub
             </button>
           </a>
-          <a href="https://qr-code-component-theta-mauve.vercel.app/" target="_blank">
+          <a
+            href="https://qr-code-component-theta-mauve.vercel.app/"
+            target="_blank"
+          >
             <button className="btnLink text-base py-3  w-[330px] md:text-[16px] md:w-fit md:px-6 md:py-1">
               Visit Website
             </button>
           </a>
         </div>
         <h5 className="hidden md:flex md:text-2xl md:font-semibold md:flex-wrap md:justify-center md:text-center ">
-        QR Code Component
+          QR Code Component
         </h5>
         <div className="flex flex-col lg:flex-row gap-2 justify-center items-center">
           <div className="space-y-2 lg:w-1/2 flex flex-col gap-2 justify-center items-center">
@@ -63,8 +66,8 @@ const qrCode = () => {
             <div>
               <Image
                 src="/screenshots/qr-code-mobile.jpg"
-                width={135}
-                height={120}
+                width={150}
+                height={80}
                 alt="screenshot QR Code component mobile view image"
                 className="rounded-xl self-center"
               />
