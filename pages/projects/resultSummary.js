@@ -18,8 +18,8 @@ const resultSummary = () => {
       </Head>
       <Header />
       <main className="flex flex-col gap-5 main mb-10">
-        <h5 className="text-2xl font-semibold flex-wrap text-center md:hidden">
-        Result Summaary Component
+        <h5 className="text-xl font-semibold flex-wrap text-center md:hidden">
+          Result Summaary Component
         </h5>
         <div className="flex flex-col justify-end gap-5  md:flex-row items-center md:items-end ">
           <Link href="/projects">
@@ -48,7 +48,7 @@ const resultSummary = () => {
             </button>
           </a>
         </div>
-        <h5 className="hidden md:flex md:text-2xl md:font-semibold md:flex-wrap md:justify-center md:text-center ">
+        <h5 className="hidden md:flex md:text-xl md:font-semibold md:flex-wrap md:justify-center md:text-center ">
           Result Summaary Component
         </h5>
         <div className="flex flex-col lg:flex-row gap-2 justify-center items-center">
@@ -66,7 +66,7 @@ const resultSummary = () => {
             <div>
               <Image
                 src="/screenshots/summary-result-mobile.jpg"
-                width={135}
+                width={200}
                 height={120}
                 alt="screenshot summay result mobile view image"
                 className="rounded-xl self-center"

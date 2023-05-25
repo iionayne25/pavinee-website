@@ -17,9 +17,9 @@ const spaceToursismWebsite = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main className="flex flex-col gap-5 main mb-10">
-        <h5 className="text-2xl font-semibold flex-wrap text-center md:hidden">
-         Space Toursism Website
+      <main className="flex flex-col gap-5 main mb-10 mt-5 md:mt-0">
+        <h5 className="text-xl font-semibold flex-wrap text-center md:hidden">
+          Space Toursism Website
         </h5>
         <div className="flex flex-col justify-end gap-5  md:flex-row items-center md:items-end ">
           <Link href="/projects">
@@ -39,14 +39,17 @@ const spaceToursismWebsite = () => {
               GitHub
             </button>
           </a>
-          <a href="https://space-tourism-website-by-pavinee.vercel.app/" target="_blank">
+          <a
+            href="https://space-tourism-website-by-pavinee.vercel.app/"
+            target="_blank"
+          >
             <button className="btnLink text-base py-3  w-[330px] md:text-[16px] md:w-fit md:px-6 md:py-1">
               Visit Website
             </button>
           </a>
         </div>
-        <h5 className="hidden md:flex md:text-2xl md:font-semibold md:flex-wrap md:justify-center md:text-center ">
-        Space Tourism Website
+        <h5 className="hidden md:flex md:text-xl md:font-semibold md:flex-wrap md:justify-center md:text-center ">
+          Space Tourism Website
         </h5>
         <div className="flex flex-col lg:flex-row gap-2 justify-center items-center">
           <div className="space-y-2 lg:w-1/2 flex flex-col gap-2 justify-center items-center">
@@ -54,18 +57,46 @@ const spaceToursismWebsite = () => {
               src="/screenshots/space-tourism-website-home-desktop.jpg"
               width={450}
               height={500}
-              alt="screenshot space-tourism-website desktop view image"
+              alt="screenshot space-tourism-website home desktop view image"
+              className="rounded-xl"
+            />
+            <Image
+              src="/screenshots/space-tourism-website-crew-A-desktop.jpg"
+              width={450}
+              height={500}
+              alt="screenshot space-tourism-website crew page desktop view image"
+              className="rounded-xl"
+            />
+            <Image
+              src="/screenshots/space-tourism-website-technology-A-desktop.jpg"
+              width={450}
+              height={500}
+              alt="screenshot space-tourism-website tech page desktop view image"
               className="rounded-xl"
             />
             <h6 className="text-[14px] text-center">Desktop View</h6>
           </div>
           <div className="lg:w-1/2 flex flex-col gap-2 justify-center items-center">
-            <div>
+            <div className="flex flex-col gap-4 justify-center md:flex-row md:flex-wrap">
               <Image
                 src="/screenshots/space-tourism-website-home-mobile.jpg"
                 width={200}
                 height={120}
-                alt="screenshot sspace-tourism-website mobile view image"
+                alt="screenshot space-tourism-website home mobile view image"
+                className="rounded-xl self-center"
+              />
+              <Image
+                src="/screenshots/space-tourism-website-crew-A-mobile.jpg"
+                width={200}
+                height={120}
+                alt="screenshot space-tourism-website crew page mobile view image"
+                className="rounded-xl self-center"
+              />
+              <Image
+                src="/screenshots/space-tourism-website-technology-A-mobile.jpg"
+                width={200}
+                height={120}
+                alt="screenshot space-tourism-website tech page mobile view image"
                 className="rounded-xl self-center"
               />
             </div>

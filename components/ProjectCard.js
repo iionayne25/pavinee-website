@@ -15,10 +15,10 @@ const ProjectCard = ({ src, title, name, courseName, gitHubLink }) => {
             className="rounded-3xl  shadow-lg shadow-black/20"
           />
         </div>
-        <div className="font-extrabold text-xs text-left items-start self-start mx-3 ">
-          {title}
+        <div className="font-extrabold text-sm text-left items-start self-start mx-3 ">
+          {name}
         </div>
-        <div className="self-start font-medium text-[14px] mx-3">{name}</div>
+        <div className="self-start font-medium text-[14px] mx-3">{title}</div>
         <div className="self-start text-[12px] pt-2 text-black/60 mx-3">
           {courseName}
         </div>

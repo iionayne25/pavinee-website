@@ -15,7 +15,7 @@ const index = () => {
       <main className="main flex flex-col gap-5 md:pb-28 pb-48  pt-20 md:pt-14">
         
         <div className="flex flex-col gap-5 justify-end items-center ">
-          <h5 className="text-2xl font-semibold flex-wrap text-center md:hidden">
+          <h5 className="text-xl font-semibold flex-wrap text-center md:hidden">
             IT Service Management Flashcard
           </h5>
           <div className="flex flex-col md:justify-end gap-5 md:self-end  md:flex-row items-center md:items-end ">
@@ -51,7 +51,7 @@ const index = () => {
             </a>
           </div>
         </div>
-        <h5 className="hidden md:flex md:justify-center md:text-2xl md:font-semibold md:flex-wrap md:text-center ">
+        <h5 className="hidden md:flex md:justify-center md:text-xl md:font-semibold md:flex-wrap md:text-center ">
             IT Service Management Flashcard
           </h5>
         <div className="hidden md:flex md:justify-center md:items-center ">
